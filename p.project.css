@@ -1,0 +1,303 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+   *{font-family: 'Poppins', sans-serif;
+}
+
+.row{
+   display: grid;
+   grid-template-columns:3fr 3fr 3fr;
+   gap: 20px;
+   background-color: #eff4fd;
+   width: 100pw;
+   /* height: 100vh; */
+   justify-items: baseline;
+   align-items: last baseline;
+}
+
+.box1{
+   background-color: aqua;
+   width: 500px;
+   height: 500px;
+ 
+}
+
+.box2{
+   background-color: rgb(17, 255, 0);
+   width: 500px;
+   height: 500px;
+}
+.box3{
+   background-color: rgb(255, 55, 0);
+   width: 500px;
+   height: 500px;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1em 0;
+}
+a{
+   text-decoration: none;
+}
+.hero{
+   /* height: 100vh;
+   width: 100vw; */
+   background: #eff4fd;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 10PX;
+   padding-left:20px;
+}
+
+.logo{
+   font-size:30px;
+   font-weight: bold;
+   color: blue;
+   cursor: pointer;
+   margin-right: 800px;
+
+}.logo::first-letter{
+   font-size: 40px;
+   border: 2px solid blue;
+   border-right: transparent;
+   padding-left: 5px;
+   color: #fd4766;
+
+}
+
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   padding: 10px 20px;
+
+}
+
+nav ul li a{
+   color: #1d1d24;
+   position: relative;
+   padding: 5px 0;
+   font-weight: bold;
+
+}
+
+nav ul li a:hover{
+   color: #fd4766;
+
+}
+
+nav ul li a::after{
+   content: "";
+   bottom: 0;
+   left: 0;
+   width: 0;
+   position: absolute;
+   height: 3px;
+   background: #fd4766;
+   transition: .3s;
+    
+}
+nav ul li a:hover::after{
+   width: 100%;
+   padding: 10px;
+   background-color: transparent;
+}
+
+.btn{
+   color: #fff;
+   font-size: 16px;
+   text-transform: uppercase;
+   background: #fd4766;
+   padding: 10px 30px;
+   border-radius: 500px;
+   display: inline-block;
+   font-weight: 500;
+   transition: all .4s ease-in-out;
+   border:2px solid#fd4766;
+
+}
+
+.btn:hover{
+   background: transparent;
+   color: #fd4766;
+}
+
+.image1{
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   margin-left: 250px;
+}
+
+.detail{
+   position: absolute;
+   top:25%;
+   left: 15%;
+   
+}
+.detail h1{
+   color: #1f1f25;
+   font-size: 80px;
+   font-weight: 700;
+   line-height: 40px;
+   padding-bottom: 30px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   padding-right: 200px;
+}
+
+.detail p{
+   color: #1f1f25;
+   font-size: 23px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   font-weight: 500;
+}
+.options{
+   padding-top: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   size: 50px;
+   
+   
+   
+}
+
+.Btn{
+   color: #fff;
+   font-size: 16px;
+   text-transform: uppercase;
+   background: #fd4766;
+   padding: 10px 30px;
+   border-radius: 500px;
+   display: inline-block;
+   font-weight: 500;
+   transition: all .4s ease-in-out;
+   border:2px solid#fd4766;
+
+}
+
+.Btn:hover{
+   background: transparent;
+   color: #fd4766;
+}
+
+.image{
+   width: 500px;
+   height: 500px;
+}
+.imae2{
+   width: 500px;
+   height: 500px;
+}
+.image3{
+   width: 500px;
+   height: 500px;
+}
+.fa-facebook{
+   font-size: 50px;
+   color: blue;
+   padding: 15px;
+}
+
+.fa-instagram{
+   font-size: 50px;
+   color:rgb(231, 6, 81);
+   padding: 15px;
+}
+.fa-twitter{
+   font-size: 50px;
+   color: rgb(8, 174, 240);
+   padding:15px;
+}
+.fa-linkedin{
+   font-size: 50px;
+   color: rgb(29, 29, 240);
+   padding: 15px;
+}
+
+.icons{
+   display: flex;
+   justify-content: center;
+   padding-left: 210px;
+   
+}
+.icons{
+   padding-top: 30px;
+}
+
+.fa-medium{
+   color: black;
+   padding: 15px;
+   font-size: 45px;
+}
+
+footer {
+   text-align: center;
+   padding:1em 0;
+   background-color: #333;
+   color: #fff;
+   
+
+}
+
+footer span{
+   color: #fd4766;
+}
+
+.footertop{
+   background-color:  #d7e2f7;
+}
+
+.icons2{
+   padding-left: 750px;
+}
+.logo2{
+   font-size:30px;
+   font-weight: bold;
+   color: blue;
+   cursor: pointer;
+   margin-right: 800px;
+}
+.logo2::first-letter{
+   font-size: 40px;
+   border: 2px solid blue;
+   border-right: transparent;
+   padding-left: 5px;
+   color: #fd4766;
+}
+.image2{
+   
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   /* margin-left: 820px; */
+   position: absolute;
+   padding:5px 840px;
+   
+   
+}
+.logo2{
+   padding: 20px 930px;
+   height: 10px;
+   
+}
+
+.bar2{
+ 
+   font-size: 1.3rem;
+   opacity: 0.7;
+   
+   padding-left:648px;
+   
+}
+
+
+

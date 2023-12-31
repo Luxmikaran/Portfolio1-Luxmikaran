@@ -1,0 +1,378 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+                
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+header {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1em 0;
+}
+a{
+   text-decoration: none;
+}
+.hero{
+   
+   
+   background: #eff4fd;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 10PX;
+   padding-left:20px;
+}
+
+.logo{
+   font-size:30px;
+   font-weight: bold;
+   color: blue;
+   cursor: pointer;
+   margin-right: 850px;
+
+}.logo::first-letter{
+   font-size: 40px;
+   border: 2px solid blue;
+   border-right: transparent;
+   padding-left: 5px;
+   color: #fd4766;
+
+}
+
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   padding: 10px 20px;
+
+}
+
+nav ul li a{
+   color: #1d1d24;
+   position: relative;
+   padding: 5px 0;
+   font-weight: bold;
+
+}
+
+nav ul li a:hover{
+   color: #fd4766;
+
+}
+
+nav ul li a::after{
+   content: "";
+   bottom: 0;
+   left: 0;
+   width: 0;
+   position: absolute;
+   height: 3px;
+   background: #fd4766;
+   transition: .3s;
+    
+}
+nav ul li a:hover::after{
+   width: 100%;
+   padding: 10px;
+   background-color: transparent;
+}
+
+.btn{
+   color: #fff;
+   font-size: 16px;
+   text-transform: uppercase;
+   background: #fd4766;
+   padding: 10px 30px;
+   border-radius: 500px;
+   display: inline-block;
+   font-weight: 500;
+   transition: all .4s ease-in-out;
+   border:2px solid#fd4766;
+
+}
+
+.btn:hover{
+   background: transparent;
+   color: #fd4766;
+}
+
+.image1{
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   margin-left: 250px;
+}
+
+.contact{
+   position: relative;
+   min-height: 100vh;
+   padding: 50px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #eff4fd;
+}
+
+.contact .content{
+   max-width: 800px;
+   text-align: center;
+   
+
+}
+.contact .content h2{
+   font-size: 46px;
+   font-weight: 500;
+   
+
+}
+
+.contact .content p{
+   
+   font-weight: 300;
+   font-size: 20px;
+   
+
+}
+
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   
+} 
+
+.container .contactinfo{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+.container .contactinfo .box{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+}
+
+
+.container .contactinfo .box .icon{
+   min-width:60px;
+   height: 60px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 22px;
+}
+
+.container .contactinfo .box .text{
+   display: flex;
+   margin-left: 20px;
+   font-size: 16px;
+   flex-direction: column;
+   font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+   font-weight: 500;
+   color: #00bcd4;
+}
+
+.contactform{
+   width: 60%;
+   height: 50vh;
+   padding: 40px;
+   background-color: #d5dae1;
+   border: 2px solid #00bcd4;
+   box-shadow: 0 0 5px #00bcd4,
+               0 0 25px #00bcd4;
+   border-radius: 5px;
+   transition: 5s ease;
+}
+
+.contactform h2{
+   font-size: 30px;
+   color: #333;
+   font-weight: 500;
+}
+
+.contactform .inputbox{
+   position: relative;
+   width: 100%;
+   margin-top: 10px 0;
+
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+   width: 100%;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid black;
+   outline: none;
+   resize: none;
+
+}
+
+
+.contact .inputbox span{
+   position: absolute;
+   left: 0;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   pointer-events: none;
+   transition: 0.5s;
+   color: #666;
+
+}
+
+.contact .inputbox input:focus ~ span,
+.contact .inputbox input:valid ~ span
+.contact .inputbox textarea:focus ~ span
+.contact .inputbox textarea:focus ~ span{
+   color: #fd4766;
+   font-size: 12px;
+   transform: translateY(-20px);
+
+}
+
+.contact .inputbox input[type="submit"]{
+   width: 100px;
+   background-color: #00bcd4;
+   color: solid black;
+   border-radius: 5px;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 18px;
+   
+
+
+}
+
+.contact{
+   flex-direction: column;
+}
+
+
+footer {
+   text-align: center;
+   padding:1em 0;
+   background-color: #333;
+   color: #fff;
+
+}
+
+footer span{
+   color: #fd4766;
+}
+
+.footertop{
+   background-color:  #d7e2f7;
+}
+
+.icons2{
+   padding-left: 750px;
+}
+.logo2{
+   font-size:30px;
+   font-weight: bold;
+   color: blue;
+   cursor: pointer;
+   margin-right: 800px;
+}
+.logo2::first-letter{
+   font-size: 40px;
+   border: 2px solid blue;
+   border-right: transparent;
+   padding-left: 5px;
+   color: #fd4766;
+}
+.image2{
+   
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   /* margin-left: 820px; */
+   position: absolute;
+   padding:5px 840px;
+   
+}
+.logo2{
+   padding: 20px 930px;
+   height: 100px;
+   
+}
+.bar2{
+ 
+   font-size: 1.3rem;
+   opacity: 0.7;
+   
+   padding-left:680px;
+   
+}
+
+.fa-facebook{
+   font-size: 50px;
+   color: blue;
+   padding: 15px;
+}
+
+
+.fa-instagram{
+   font-size: 50px;
+   color:rgb(231, 6, 81);
+   padding: 15px;
+}
+.fa-twitter{
+   font-size: 50px;
+   color: rgb(8, 174, 240);
+   padding:15px;
+}
+.fa-linkedin{
+   font-size: 50px;
+   color: rgb(29, 29, 240);
+   padding: 15px;
+}
+
+.icons{
+   display: flex;
+   justify-content: center;
+   padding-left: 210px;
+   
+}
+.icons{
+   padding-top: 30px;
+}
+
+.fa-medium{
+   color: black;
+   padding: 15px;
+   font-size: 45px;
+}
+
+.Field{
+   display: grid;
+   margin-bottom: 40px;
+   gap: 15px;
+   padding-bottom: 20px;
+   
+   font-weight: 600;
+   font-size: 20px;
+   
+}
+
+h1{
+   padding-bottom: 20px;
+}
