@@ -306,11 +306,13 @@ footer span{
    height: 80px;
    /* margin-left: 820px; */
    position: absolute;
-   padding:5px 840px;
+   padding:10px 830px;
+   padding-bottom: 5px;
+   
    
 }
 .logo2{
-   padding: 20px 930px;
+   padding: 20px 900px;
    height: 100px;
    
 }
