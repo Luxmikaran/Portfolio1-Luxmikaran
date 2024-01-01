@@ -216,6 +216,8 @@ footer span{
    color: blue;
    cursor: pointer;
    margin-right: 800px;
+   
+   
 }
 .logo2::first-letter{
    font-size: 40px;
@@ -235,8 +237,9 @@ footer span{
    
 }
 .logo2{
-   padding: 20px 930px;
+   padding: 20px 910px;
    height: 100px;
+   
    
 }
 .bar2{

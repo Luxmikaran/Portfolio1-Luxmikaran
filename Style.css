@@ -252,12 +252,14 @@ footer span{
    height: 80px;
    /* margin-left: 820px; */
    position: absolute;
-   padding:5px 840px;
+   padding:5px 850px;
+   
    
 }
 .logo2{
-   padding: 20px 930px;
+   padding: 10px 930px;
    height: 100px;
+   
    
 }
 
